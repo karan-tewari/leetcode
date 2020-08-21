@@ -8,6 +8,7 @@ let romanToInt = function(s) {
       D: 500,
       M: 1000
     }
+    
     let total = 0;
     for(let i = 0; i<s.length; i++){
         if(romanToInt[s[i]] < romanToInt[s[i+1]]){
